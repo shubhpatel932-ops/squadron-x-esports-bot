@@ -1,33 +1,17 @@
 {
   "name": "squadron-x-esports-bot",
   "version": "1.0.0",
-  "description": "Professional BGMI esports tournament management Discord bot for Squadron X Esports",
-  "main": "src/index.js",
+  "description": "Discord bot for Squadron X Esports",
+  "main": "bot.js",
   "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js",
-    "deploy-commands": "node src/deploy-commands.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js",
+    "dev": "node bot.js"
   },
-  "keywords": [
-    "discord",
-    "bot",
-    "esports",
-    "bgmi",
-    "tournament",
-    "squadron-x"
-  ],
-  "author": "Squadron X Esports",
-  "license": "MIT",
   "dependencies": {
-    "discord.js": "^14.14.0",
-    "dotenv": "^16.3.1",
-    "pg": "^8.11.3",
-    "winston": "^3.11.0",
-    "joi": "^17.11.0"
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
-  }
+  "author": "Squadron X",
+  "license": "MIT"
 }
